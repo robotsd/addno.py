@@ -5,6 +5,13 @@
 num1 = 10
 num2 = 14
 num3 = 12
+>>> def fib(n):
+>>>     a, b = 0, 1
+>>>     while a < n:
+>>>         print(a, end=' ')
+>>>         a, b = b, a+b
+>>>     print()
+>>> fib(1000)
 
 # uncomment following lines to take three numbers from user
 #num1 = float(input("Enter first number: "))
